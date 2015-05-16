@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lane.name %>
+</p>
+
+<p>
+  <strong>Match:</strong>
+  <%= @lane.match %>
+</p>
+
+<%= link_to 'Edit', edit_lane_path(@lane) %> |
+<%= link_to 'Back', lanes_path %>

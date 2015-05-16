@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :games
+  resources :matches
+  resources :lanes
+  resources :teams
+  resources :positions
+  resources :users
+  resources :scores
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
